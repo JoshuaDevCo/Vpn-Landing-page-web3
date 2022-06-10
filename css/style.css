@@ -1,0 +1,43 @@
+body {
+    background: #111111;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+*, 
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+/* секция затем контейнер */
+.container {
+    width: 1440px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    margin: 40px 160px;
+}
+
+.header_logo-text {
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+.header_logo--text_span {
+    color: #0FA2DB;
+}
+
+.header_btn {
+    position: absolute;
+    width: 269px;
+    height: 47px;
+    left: 1160px;
+
+    background: #2F2F2F;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
