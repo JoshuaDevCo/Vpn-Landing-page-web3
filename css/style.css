@@ -28,6 +28,7 @@ body {
     border-radius: 50px;
 }
 
+
 /* Page */
 .page {
     overflow: hidden;
@@ -39,11 +40,48 @@ body {
     margin: 0 auto;
 }
 
+.section--headercontact {
+    background: #232323;
+}
+
+.section--intro {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 11, 40, 0.2) 100%), linear-gradient(180deg, rgba(0, 9, 58, 0.2) 0%, rgba(0, 0, 0, 0) 100%), #111111;
+}
+
+.section--whyuse {
+    background: #0C0C15;
+}
+
+.section--features {
+    background: #060606;
+}
+
+.section--privacyandprotect {
+    background: #232323;
+}
+
+.section--protectall {
+    background: #060606;
+}
+
+.section--prefooter {
+    background: #232323;
+}
+
+/* Container */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
 /* Header */
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 40px 160px;
+    margin: 0 auto;
+    padding: 40px 160px;
+    max-width: 1440px;
 }
 
 .header_btn {
@@ -61,7 +99,6 @@ body {
 .headercontact {
     display: flex;
     justify-content: space-between;
-    background: #232323;
     padding: 30px 160px;
     font-weight: 400;
     font-size: 16px;
@@ -72,7 +109,7 @@ body {
 
 /* Intro */
 .intro {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 11, 40, 0.2) 100%), linear-gradient(180deg, rgba(0, 9, 58, 0.2) 0%, rgba(0, 0, 0, 0) 100%), #111111;
+    max-width: 100%;
 }
 
 .intro_inner {
@@ -175,7 +212,6 @@ body {
 
 /* Why Use */
 .whyuse {
-    background: #0C0C15;
     padding: 127px 242px 157px;
     text-align: center;
 }
@@ -197,7 +233,6 @@ body {
 
 /* Features */
 .features {
-    background: #060606;
     padding: 75px 273px 114px;
     text-align: center;
 }
@@ -225,7 +260,6 @@ body {
 
 /* Privacy and Protections */
 .privacyandprotect {
-    background: #232323;
     padding: 63px 194px 105px;
     text-align: center;
 }
@@ -268,7 +302,7 @@ body {
     font-size: 48px;
     line-height: 58px;
     color: #FFFFFF;
-    margin: 109px 370px;
+    padding: 109px 370px;
 }
 
 .protectall_info--title_span {
